@@ -1,0 +1,16 @@
+#!/bin/bash
+
+printf "Install?[Y/N]: "
+read ask
+
+if [[ $ask = "y" || $ask = "Y" ]];then
+mkdir /sdcard/komik
+pkg install python2
+pip2 install varAnimate
+pip2 install -r .requirements.txt
+echo -e "\n\n\nRequirements already installed!"
+echo "$ python2 manga.py # to run"
+exit 1
+else
+echo "[!] Stoping!"
+fi
