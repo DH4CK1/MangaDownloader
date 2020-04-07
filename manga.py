@@ -47,7 +47,7 @@ input = animinput()
 alert = animvar()
 # Make a banner #
 banner = banner('Manga','Dst_207','0.1 Downloader')
-
+os.system('clear')
 def search(query):
     c = {}
     r = requests.get('https://komiku.co.id/?post_type=manga&s='+query).text
