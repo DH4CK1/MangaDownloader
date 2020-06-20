@@ -46,7 +46,7 @@ input = animinput()
 # set var
 alert = animvar()
 # Make a banner #
-banner = banner('Manga','Dst_207','0.1 Downloader')
+banner = banner('Manga','DestaGanz | Mr.Đ`HACK','0.1 Downloader')
 os.system('clear')
 def search(query):
     c = {}
